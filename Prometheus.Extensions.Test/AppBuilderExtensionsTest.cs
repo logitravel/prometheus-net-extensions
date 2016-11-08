@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Owin.Testing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Prometheus.Extensions.Test
+namespace Toolfactory.Prometheus.Extensions.Test
 {
     [TestClass]
     public class AppBuilderExtensionsTest

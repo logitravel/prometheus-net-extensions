@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prometheus.Extensions", "Prometheus.Extensions\Prometheus.Extensions.csproj", "{1ECE3C88-16FD-4074-BA7A-EAC6BA652450}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolfactory.Prometheus.Extensions", "Prometheus.Extensions\Toolfactory.Prometheus.Extensions.csproj", "{1ECE3C88-16FD-4074-BA7A-EAC6BA652450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prometheus.Extensions.Test", "Prometheus.Extensions.Test\Prometheus.Extensions.Test.csproj", "{A71170DC-F1E5-436A-B821-6D90347D57E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolfactory.Prometheus.Extensions.Test", "Prometheus.Extensions.Test\Toolfactory.Prometheus.Extensions.Test.csproj", "{A71170DC-F1E5-436A-B821-6D90347D57E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using Owin;
 
-namespace Prometheus.Extensions.Test
+namespace Toolfactory.Prometheus.Extensions.Test
 {
     public class TestingStartup
     {

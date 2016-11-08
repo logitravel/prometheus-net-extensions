@@ -6,8 +6,8 @@
     <ProjectGuid>{A71170DC-F1E5-436A-B821-6D90347D57E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Prometheus.Extensions.Test</RootNamespace>
-    <AssemblyName>Prometheus.Extensions.Test</AssemblyName>
+    <RootNamespace>Toolfactory.Prometheus.Extensions.Test</RootNamespace>
+    <AssemblyName>Toolfactory.Prometheus.Extensions.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -93,9 +93,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Prometheus.Extensions\Prometheus.Extensions.csproj">
+    <ProjectReference Include="..\Prometheus.Extensions\Toolfactory.Prometheus.Extensions.csproj">
       <Project>{1ece3c88-16fd-4074-ba7a-eac6ba652450}</Project>
-      <Name>Prometheus.Extensions</Name>
+      <Name>Toolfactory.Prometheus.Extensions</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

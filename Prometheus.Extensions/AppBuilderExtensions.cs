@@ -1,8 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Owin;
+using Prometheus;
 using Prometheus.Advanced;
 
-namespace Prometheus.Extensions
+namespace Toolfactory.Prometheus.Extensions
 {
     /// <summary>
     /// Extensions for adding Prometheus endpoint into an OWIN pipeline

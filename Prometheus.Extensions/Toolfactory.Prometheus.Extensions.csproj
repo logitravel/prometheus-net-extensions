@@ -7,8 +7,8 @@
     <ProjectGuid>{1ECE3C88-16FD-4074-BA7A-EAC6BA652450}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Prometheus.Extensions</RootNamespace>
-    <AssemblyName>Prometheus.Extensions</AssemblyName>
+    <RootNamespace>Toolfactory.Prometheus.Extensions</RootNamespace>
+    <AssemblyName>Toolfactory.Prometheus.Extensions</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -70,6 +70,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="Prometheus.Extensions.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
