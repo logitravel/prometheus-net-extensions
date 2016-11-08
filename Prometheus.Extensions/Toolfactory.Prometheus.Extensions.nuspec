@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>Toolfactory.Prometheus.Extensions</id>
+    <version>1.0.0.0</version>
+    <title>Toolfactory.Prometheus.Extensions</title>
+    <authors>Jordi Oliver</authors>
+    <owners>Toolfactory</owners>
+    <licenseUrl>https://github.com/logitravel/prometheus-net-extensions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/logitravel/prometheus-net-extensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extensions that allow enabling a metrics endpoint in an OWIN application that can be scraped by a Prometheus server</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>prometheus owin</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="prometheus-net" version="1.2.3" />
+        <dependency id="Microsoft.Owin" version="3.0.1" />
+      </group>
+    </dependencies>  
+  </metadata>
+  <files>
+    <file src="bin\Release\Toolfactory.Prometheus.Extensions.dll" target="lib\net451\Toolfactory.Prometheus.Extensions.dll" />
+  </files>
+</package>
