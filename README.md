@@ -1,4 +1,5 @@
 # prometheus-net-extensions
+[![NuGet version](https://badge.fury.io/nu/Toolfactory.Prometheus.Extensions.svg)](https://badge.fury.io/nu/Toolfactory.Prometheus.Extensions)
 
 ## Overview
 This library contains an extension for OWIN applications over the [prometheus-net](https://github.com/andrasm/prometheus-net) library, which will let you define an endpoint that exposes metrics that can be scraped by a Prometheus server.
