@@ -1,7 +1,14 @@
 # prometheus-net-extensions
+[![NuGet version](https://badge.fury.io/nu/Toolfactory.Prometheus.Extensions.svg)](https://badge.fury.io/nu/Toolfactory.Prometheus.Extensions)
+
+## Overview
 This library contains an extension for OWIN applications over the [prometheus-net](https://github.com/andrasm/prometheus-net) library, which will let you define an endpoint that exposes metrics that can be scraped by a Prometheus server.
 
-# Usage
+## Install
+It's available via [a nuget package](https://www.nuget.org/packages/Toolfactory.Prometheus.Extensions)
+PM> `Install-Package Toolfactory.Prometheus.Extensions`
+
+## Usage
 Firstly configure your OWIN application startup to use Prometheus:
 ```cs
 /// This is the OWIN startup class
@@ -55,7 +62,7 @@ process_cpu_seconds_total 3.3125
 ```
 Now you can add your application custom metrics as explained in the [prometheus-net](https://github.com/andrasm/prometheus-net) documentation
 
-# License
+## License
 Copyright 2016 Logitravel
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
