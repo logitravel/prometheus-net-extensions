@@ -6,7 +6,9 @@ This library contains an extension for OWIN applications over the [prometheus-ne
 
 ## Install
 It's available via [a nuget package](https://www.nuget.org/packages/Toolfactory.Prometheus.Extensions)
-PM> `Install-Package Toolfactory.Prometheus.Extensions`
+```
+PM> Install-Package Toolfactory.Prometheus.Extensions
+```
 
 ## Usage
 Firstly configure your OWIN application startup to use Prometheus:
