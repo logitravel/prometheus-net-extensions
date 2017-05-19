@@ -24,7 +24,23 @@ public class Startup
     }
 }
 ```
-Once configured, you can make a HTTP GET request over the /metrics endpoint. You will see something similar to the following:
+
+In case you are developing an ASP.NET Core application, you can configure the prometheus endpoint as following in the Startup class:
+
+```cs
+// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+{
+    loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+    loggerFactory.AddDebug();
+    
+    app.UsePrometheus();       
+
+    app.UseMvc();
+}
+```
+
+Once configured, you can make a HTTP GET request to the /metrics endpoint. You will see something similar to the following:
 ```
 # HELP process_windows_virtual_bytes Process virtual memory size
 # TYPE process_windows_virtual_bytes GAUGE
