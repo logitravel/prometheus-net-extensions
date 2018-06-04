@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolfactory.Prometheus.Extensions", "Prometheus.Extensions\Toolfactory.Prometheus.Extensions.csproj", "{1ECE3C88-16FD-4074-BA7A-EAC6BA652450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolfactory.Prometheus.Extensions", "Prometheus.Extensions\Toolfactory.Prometheus.Extensions.csproj", "{1ECE3C88-16FD-4074-BA7A-EAC6BA652450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolfactory.Prometheus.Extensions.Test", "Prometheus.Extensions.Test\Toolfactory.Prometheus.Extensions.Test.csproj", "{A71170DC-F1E5-436A-B821-6D90347D57E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolfactory.Prometheus.Extensions.Test", "Prometheus.Extensions.Test\Toolfactory.Prometheus.Extensions.Test.csproj", "{A71170DC-F1E5-436A-B821-6D90347D57E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolfactory.Prometheus.Extensions.NetCore.Test", "Toolfactory.Prometheus.Extensions.NetCore.Test\Toolfactory.Prometheus.Extensions.NetCore.Test.csproj", "{DB9DAB3A-5BB6-4A89-93F4-D53AF6DCDD87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{A71170DC-F1E5-436A-B821-6D90347D57E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A71170DC-F1E5-436A-B821-6D90347D57E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A71170DC-F1E5-436A-B821-6D90347D57E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9DAB3A-5BB6-4A89-93F4-D53AF6DCDD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9DAB3A-5BB6-4A89-93F4-D53AF6DCDD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9DAB3A-5BB6-4A89-93F4-D53AF6DCDD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9DAB3A-5BB6-4A89-93F4-D53AF6DCDD87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFC1E852-9523-4241-A772-A341A2856455}
 	EndGlobalSection
 EndGlobal

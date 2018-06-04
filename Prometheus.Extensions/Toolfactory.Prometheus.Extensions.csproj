@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
-    <VersionPrefix>1.1.0</VersionPrefix>
+    <TargetFrameworks>netstandard2;netstandard1.3;net451</TargetFrameworks>
+    <VersionPrefix>1.2.0</VersionPrefix>
     <PackageId>Toolfactory.Prometheus.Extensions</PackageId>
     <AssemblyTitle>Toolfactory.Prometheus.Extensions</AssemblyTitle>
     <Authors>Jordi Oliver</Authors>
@@ -15,8 +15,12 @@
     <RepositoryUrl>https://github.com/logitravel/prometheus-net-extensions</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
-
-  <ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)'=='netstandard2'">
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.3" />
+    <PackageReference Include="prometheus-net" Version="2.1.0" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework)'=='netstandard1.3'">
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.1.2" />
     <PackageReference Include="prometheus-net" Version="1.3.6-rc" />
   </ItemGroup>
@@ -24,6 +28,8 @@
   <ItemGroup Condition="'$(TargetFramework)'=='net451'">    
     <PackageReference Include="Owin" Version="1.0.0" />
     <PackageReference Include="Microsoft.Owin" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.1.2" />
+    <PackageReference Include="prometheus-net" Version="1.3.6-rc" />
   </ItemGroup>   
 
 </Project>
